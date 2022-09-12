@@ -1,0 +1,7 @@
+@hostname = http:localhost
+
+@port = 4000 
+
+@host = {{hostname}}:{{port}}
+
+GET {{host}}/products
