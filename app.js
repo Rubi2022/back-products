@@ -8,7 +8,7 @@ const router = require('./apis');
 
 app.get('/', (req, res) => {
     res.send({
-        message: 'Holi crayoli'
+        message: 'aló'
     })
 })
 
